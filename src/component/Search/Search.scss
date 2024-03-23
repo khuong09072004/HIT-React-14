@@ -1,0 +1,43 @@
+.search {
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: rgb(255, 140, 0);
+    }
+
+    input {
+        padding: 12px;
+        font-size: 16px;
+        border: 2px solid rgb(143, 143, 241);
+        border-radius: 4px 0 0 4px;
+        outline: red;
+        background-color: #fff;
+        
+    }
+
+    button {
+        padding: 12px 8px;
+        font-size: 16px;
+        border: 2px solid rgb(143, 143, 241);
+        background-color: rgb(143, 143, 241);
+        color: #fff;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        transition: all 0.4s linear;
+
+        &:hover {
+            background-color: rgb(45, 44, 44);
+            border: 2px solid #000;
+        }
+    }
+}
+
+.search-container {
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    
+}

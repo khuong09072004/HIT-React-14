@@ -1,0 +1,55 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+.toggle-button {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+  
+ 
+.on {
+    transition: opacity 0.3s ease;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.toggle-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    background-image:url(https://i.pinimg.com/564x/b7/ba/72/b7ba729d25f960d8a5b220414b173afc.jpg) ;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-size: 5;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+.toggle-button.toggled .toggle-circle {
+    transform: translateX(50px);
+}
+.toggle-button.toggled{
+  background-color: #47cacc;
+}
+  
+.off{
+  color: #fff;
+  font-weight: bold;
+}
+
