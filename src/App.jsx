@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
@@ -10,15 +10,47 @@ import Banner from "./component/Banner/Banner";
 import Search from "./component/Search/Search";
 import CardLists from './component/CardsLists/CardLists';
 import Footer from './component/Footer/Footer';
+import axios from 'axios';
+import PostImg from './component/PostImg/PostImg';
+
 const App = () => {
+  // const[postData,setPost] =useState([])
+  
+
+
+  // useEffect(()=>{
+    
+  //   const fetchData =async () => {
+  //     const data =await axios.get("https://picsum.photos/v2/list?page=2&limit=8")
+  //     console.log(data)
+  //   }
+
+  //   fetch(apiUrl)
+  //     .then((response)=>{
+  //       if(!response.ok){
+  //         throw new Error("Network response was not ok");
+  //       }
+  //       return response.json();
+  //     })
+  //     .then((postData) => {
+  //       // setPost(postData)
+  //       console.log("User Data:",postData);
+  //     })
+  //     .catch((error)=>{
+  //       console.error("Error:",error);
+  //     });
+
+  //   fetchData();
+
+
+
+  // },[]);
   
   return (
    <>
-   <Header/>
-   <Banner/>
-   <Search/>
-   <CardLists/>
-   <Footer/>
+   
+   <PostImg/>
+
  
 
    </>
