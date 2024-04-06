@@ -12,7 +12,11 @@ import CardLists from './component/CardsLists/CardLists';
 import Footer from './component/Footer/Footer';
 import axios from 'axios';
 import PostImg from './component/PostImg/PostImg';
-
+import Usefer from './component/Usefer/Usefer';
+import UseMemo from './component/UseMemo/UseMemo';
+import CreactMemo from './component/ReactMemo/ReactMemo'
+import ReactMemo from './component/ReactMemo/ReactMemo';
+import TodoApp from './component/TodoApp/TodoApp';
 const App = () => {
   // const[postData,setPost] =useState([])
   
@@ -49,7 +53,10 @@ const App = () => {
   return (
    <>
    
-   <PostImg/>
+   {/* <PostImg/> */}
+  
+   {/* <UseMemo/> */}
+  <TodoApp/>
 
  
 
