@@ -1,0 +1,38 @@
+:root{
+    --a:gray;
+}
+$cl:green;
+
+
+
+.card1{
+    $primary-color: red;
+
+    background-color: #fff;
+    border: 1px solid rgb(1, 1, 4);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    padding: 16px;
+    transition: all 0.2s linear;
+    color:$cl ;
+
+
+&>h1{
+    text-align: center;
+    margin: 10px 0;
+ }
+
+&>img{
+    width: 100%;
+}
+
+&:hover{
+    background-color: rgb(184, 143, 143);
+    scale: 120%;
+    color: #fff;
+    
+}
+    
+}
+

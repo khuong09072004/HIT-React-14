@@ -1,0 +1,18 @@
+.footer-container {
+    width: 100%;
+    height: 56px;
+    background-image: linear-gradient(to bottom right, #787FF6, #7BD5F5);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;
+
+    > span {
+        margin-left: 4px;
+        text-decoration: underline;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
